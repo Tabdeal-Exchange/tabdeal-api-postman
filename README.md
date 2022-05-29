@@ -1,4 +1,5 @@
 # Tabdeal API Postman
 
-## Usage
-Import Postman collection and environment and enjoy!
+This repo has [Postman](https://getpostman.com) API collection and environment of [Tabdeal](https://tabdeal.org/) APIs.
+
+You can see Tabdeal API documentation [here](https://docs.tabdeal.org/).
