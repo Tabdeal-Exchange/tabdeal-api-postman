@@ -3251,7 +3251,7 @@
 			"name": "Data Stream",
 			"item": [
 				{
-					"name": "Create Listen Key",
+					"name": "New Listen Key",
 					"request": {
 						"method": "POST",
 						"header": [],
@@ -3592,22 +3592,12 @@
 					]
 				},
 				{
-					"name": "Remove Listen Key",
+					"name": "Close Listen Key",
 					"request": {
 						"method": "DELETE",
 						"header": [],
-						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "listenKey",
-									"value": "7ahadmufs1att5298tf6t03w8h6c2wlb1nnuty74jainijvdsgwignaigs7fy8er",
-									"type": "text"
-								}
-							]
-						},
 						"url": {
-							"raw": "{{domain}}/api/v1/userDataStream",
+							"raw": "{{domain}}/api/v1/userDataStream?listenKey=7ahadmufs1att5298tf6t03w8h6c2wlb1nnuty74jainijvdsgwignaigs7fy8er",
 							"host": [
 								"{{domain}}"
 							],
@@ -3615,6 +3605,12 @@
 								"api",
 								"v1",
 								"userDataStream"
+							],
+							"query": [
+								{
+									"key": "listenKey",
+									"value": "7ahadmufs1att5298tf6t03w8h6c2wlb1nnuty74jainijvdsgwignaigs7fy8er"
+								}
 							]
 						}
 					},
